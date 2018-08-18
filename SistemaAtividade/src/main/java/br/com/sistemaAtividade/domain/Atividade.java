@@ -1,7 +1,10 @@
 package br.com.sistemaAtividade.domain;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.Date;
 @Entity
 @Table(name="Atividade")
 
@@ -20,6 +23,18 @@ public class Atividade implements Serializable {
     @ManyToOne
     @JoinColumn(name = "usuario_id")
     private Usuario usuario;
+
+    public Date getDataAtividade() {
+        return dataAtividade;
+    }
+
+    public void setDataAtividade(Date dataAtividade) {
+        this.dataAtividade = dataAtividade;
+    }
+
+    @DateTimeFormat(iso = DateTimeFormat.ISO.DATE)
+    @Temporal(TemporalType.DATE)
+    private Date dataAtividade;
 
     public Long getId() {
         return Id;

@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71a61389-22f0-4b74-8f08-23f859483f97" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sistemaAtividade/controler/AtividadeControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/sistemaAtividade/controler/AtividadeControler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sistemaAtividade/domain/Atividade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/sistemaAtividade/domain/Atividade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/atividade/cadastroAtividade.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/atividade/cadastroAtividade.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/atividade/listaAtividade.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/atividade/listaAtividade.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/atividade/cadastroAtividade.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/atividade/cadastroAtividade.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,43 +66,96 @@
     <session id="-893526768">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1" />
+          <entry key="html" value="30" />
+          <entry key="java" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1" />
+          <entry key="HTML" value="30" />
+          <entry key="JAVA" value="57" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="1" />
+          <entry key="java" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+          <entry key="JAVA" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/atividade/listaAtividade.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
-              <caret line="62" column="83" selection-start-line="62" selection-start-column="71" selection-end-line="62" selection-end-column="83" />
+            <state relative-caret-position="137">
+              <caret line="59" column="17" lean-forward="true" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/sistemaAtividade/controler/AtividadeControler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
-              <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
+            <state relative-caret-position="900">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1156#1157#0" expanded="true" />
                 <element signature="e#1203#1204#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/sistemaAtividade/domain/Atividade.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="27" column="28" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#589#590#0" expanded="true" />
+                <element signature="e#625#626#0" expanded="true" />
+                <element signature="e#681#682#0" expanded="true" />
+                <element signature="e#731#732#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/atividade/cadastroAtividade.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="51" column="73" selection-start-line="51" selection-start-column="73" selection-end-line="51" selection-end-column="73" />
+              <folding>
+                <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/sistemaAtividade/SistemaAtividadeApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -163,20 +221,20 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/usuario/cadastroUsuario.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/usuario/cadastroAtividade.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/home.html" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/sistemaAtividade/domain/Atividade.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/sistemaAtividade/conversor/ConversorToUsuario.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/atividade/cadastroAtividade.html" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/sistemaAtividade/service/UsuarioService.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/sistemaAtividade/service/UsuarioServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/sistemaAtividade/dao/Usuariodao.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/sistemaAtividade/dao/UsuarioDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/atividade/listaAtividade.html" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/sistemaAtividade/controler/UsuarioControler.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/sistemaAtividade/dao/AtividadeDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/sistemaAtividade/service/AtividadeService.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/sistemaAtividade/service/AtividadeServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/sistemaAtividade/dao/AtividadeDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/sistemaAtividade/controler/AtividadeControler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/sistemaAtividade/domain/Atividade.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/atividade/cadastroAtividade.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/atividade/listaAtividade.html" />
       </list>
     </option>
   </component>
@@ -187,7 +245,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="20" />
     <option name="y" value="43" />
     <option name="width" value="1400" />
@@ -199,7 +257,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,17 +293,60 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sistemaAtividade" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SistemaAtividade" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SistemaAtividade" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sistemaAtividade" type="462c0819:PsiDirectoryNode" />
+              <item name="controler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SistemaAtividade" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SistemaAtividade" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sistemaAtividade" type="462c0819:PsiDirectoryNode" />
+              <item name="conversor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SistemaAtividade" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SistemaAtividade" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sistemaAtividade" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SistemaAtividade" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SistemaAtividade" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sistemaAtividade" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SistemaAtividade" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SistemaAtividade" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sistemaAtividade" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534611869072" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534615804457" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -267,9 +370,9 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="SistemaAtividadeApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="SistemaAtividadeApplication" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.sistemaAtividade.SistemaAtividadeApplication" />
-      <module name="SistemaAtividade" />
+      <module name="sistemaAtividade" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.sistemaAtividade.*" />
@@ -280,11 +383,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.SistemaAtividadeApplication" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -300,19 +398,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="43" width="1400" height="837" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.26435935" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="2" weight="0.32885906" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.32771084" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
@@ -354,13 +451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/sistemaAtividade/SistemaAtividadeApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -424,13 +514,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="14" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/sistemaAtividade/domain/Atividade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -445,13 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/atividade/cadastroAtividade.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="45" column="55" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -538,10 +629,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/atividade/listaAtividade.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/sistemaAtividade/controler/AtividadeControler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" column="83" selection-start-line="62" selection-start-column="71" selection-end-line="62" selection-end-column="83" />
+        <state relative-caret-position="900">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1156#1157#0" expanded="true" />
+            <element signature="e#1203#1204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/sistemaAtividade/domain/Atividade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/atividade/cadastroAtividade.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="51" column="73" selection-start-line="51" selection-start-column="73" selection-end-line="51" selection-end-column="73" />
+          <folding>
+            <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -567,15 +687,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/sistemaAtividade/controler/AtividadeControler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/sistemaAtividade/SistemaAtividadeApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1156#1157#0" expanded="true" />
-            <element signature="e#1203#1204#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="195">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/atividade/listaAtividade.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="59" column="17" lean-forward="true" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
         </state>
       </provider>
     </entry>

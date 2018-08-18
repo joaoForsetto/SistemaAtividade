@@ -72,6 +72,6 @@ public class AtividadeControler {
         atividadeService.deletar(id);
         attr.addFlashAttribute("mensagem", "Atividade deletada com sucesso");
         return "redirect:/atividade/listarAtividade";
-        
+
     }
 }
