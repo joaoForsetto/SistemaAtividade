@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns.layout="http://www.ultra.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Usuários</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no"/>
+    <!-- Bootstrap core CSS -->
+    <link href="/webjars/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/webjars/open-iconic/font/css/open-iconic-bootstrap.min.css" rel="stylesheet" />
+</head>
+
+<body>
+<header class="jumbotron">
+    <div class="row">
+        <div class="col-sm-6">
+            <h2>Lista de Usuários</h2>
+        </div>
+        <div class="col-sm-6">
+            <a class="btn btn-primary" th:href="@{/usuario/cadastro}">Cadastrar Usuário</a>
+        </div>
+    </div>
+</header>
+<div th:if="${listarUsuario != null}">
+    <h4>
+        Usuários
+    </h4>
+
+    <div th:if="${mensagem != null}">
+        <div class="alert alert-info" role="alert">
+            <span th:text="${mensagem}">mensagem</span>
+        </div>
+    </div>
+
+    <table class="table">
+        <thead>
+        <tr>
+            <th>#</th>
+            <th>id</th>
+            <th>nome</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="u : ${listarUsuario}">
+            <td>
+                <a th:text="${u.id}">usuario</a>
+            </td>
+            <td>
+                <a th:text="${u.nome}">usuario</a>
+            </td>
+            <td>
+                <a class="btn btn-sm btn-info" th:href="@{/usuario/{id}/atualizar(id=${u.id})}">Editar</a>
+                <a class="btn btn-sm btn-danger" th:href="@{/usuario/{id}/remover(id=${u.id})}">Excluir</a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<div th:if="${#lists.isEmpty(listarUsuario)}">
+    <div class="alert alert-info" role="alert">
+        <span class="glyphicon glyphicon-exclamation-sign"></span>
+        Não existem usuários cadastrados!
+    </div>
+</div>
+<a class="btn btn-light" th:href="@{/home}">Voltar</a>
+<hr/>
+</section>
+<hr>
+<footer class="footer">
+    <p>© 2018 Sistema de Atividades</p>
+</footer>
+
+<script src="/webjars/jquery/jquery.min.js"></script>
+<script src="/webjars/jquery-mask-plugin/dist/jquery.mask.min.js"></script>
+<script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

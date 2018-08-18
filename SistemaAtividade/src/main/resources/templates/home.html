@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns.layout="http://www.ultra.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema de Atividades</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no"/>
+    <!-- Bootstrap core CSS -->
+    <link href="/webjars/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/webjars/open-iconic/font/css/open-iconic-bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+<div class="container">
+    <div class="jumbotron">
+        <h1>Sistema de Atividade</h1>
+        <p class="lead">
+            Sistema de Atividades
+        </p>
+    </div>
+
+    <div class="row">
+        <div class="col-md-3">
+            <h3>Cadastro</h3>
+            <p>
+                <a class="btn btn-success"
+                   href="/usuario/cadastro">Cadastro de Usuário</a>
+            </p>
+
+        </div>
+
+            <div class="col-md-3">
+                <h3>Listar</h3>
+                <p>
+                    <a class="btn btn-success"
+                       href="/usuario/listarUsuario">Listar Usuário</a>
+                </p>
+
+            </div>
+        <div class="col-md-3">
+            <h3>Cadastrar Atividade</h3>
+            <p>
+                <a class="btn btn-success"
+                   href="/atividade/cadastro">Cadastrar Atividade</a>
+            </p>
+
+        </div>
+
+        <div class="col-md-3">
+            <h3>Listar Atividade</h3>
+            <p>
+                <a class="btn btn-success"
+                   href="/atividade/listarAtividade">Listar Atividade</a>
+            </p>
+
+        </div>
+
+
+
+    </div>
+
+    <hr/>
+    <footer class="footer">
+        <p>© 2018 Sistema de Atividade</p>
+    </footer>
+</div>
+
+
+
+<script src="/webjars/jquery/jquery.min.js"></script>
+<script src="/webjars/jquery-mask-plugin/dist/jquery.mask.min.js"></script>
+<script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

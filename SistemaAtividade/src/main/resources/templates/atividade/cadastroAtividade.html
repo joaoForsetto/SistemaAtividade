@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns.layout="http://www.ultra.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Atividade</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no"/>
+    <!-- Bootstrap core CSS -->
+    <link href="/webjars/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/webjars/open-iconic/font/css/open-iconic-bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+<section class="container">
+    <div class="jumbotron">
+        <h2>Cadastro de Atividade</h2>
+    </div>
+
+    <h4>
+        Cadastro de Atividades
+    </h4>
+
+    <form th:action="@{/atividade/salvar}" th:method="${atividade.Id} == null ? post : put" th:object="${atividade}">
+        <div class="row">
+
+            <input id="id" type="hidden" th:field="*{id}"/>
+
+            <div class="form-group col-md-4">
+                <label for="titulo">titulo:</label>
+                <input class="form-control" id="titulo" type="text" th:field="*{titulo}"/>
+                <div th:if="${#fields.hasErrors('titulo')}" th:errors="*{titulo}"></div>
+            </div>
+
+            <div class="form-group col-md-4">
+                <label for="descricao">descricao:</label>
+                <input class="form-control" id="descricao" type="text" th:field="*{descricao}"/>
+                <div th:if="${#fields.hasErrors('descricao')}" th:errors="*{descricao}"></div>
+            </div>
+
+            <div class="form-group col-md-4">
+                <label for="usuario">usuario</label>
+                <select id="usuario" class="form-control" th:field="*{usuario}">
+                    <option value="">Selecione</option>
+                    <option th:each="a : ${listaUsuario}" th:value="${a.id}" th:text="${a.nome}">usuario</option>
+                </select>
+            </div>
+
+        </div>
+        <div class="form-group">
+            <button class="btn btn-primary" type="submit">Salvar</button>
+        </div>
+
+    </form>
+
+    <a class="btn btn-light" th:href="@{/home}">Voltar</a>
+
+    <hr/>
+    <footer class="footer">
+        <p>© 2018 Sistema de Atividades</p>
+    </footer>
+</section>
+
+<script src="/webjars/jquery/jquery.min.js"></script>
+<script src="/webjars/jquery-mask-plugin/dist/jquery.mask.min.js"></script>
+<script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
